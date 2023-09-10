@@ -8,6 +8,9 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.9"
 jupyter = "^1.0.0"
+numpy = "^1.25.2"
+matplotlib = "^3.7.2"
+black = {version = "^23.9.0", extras = ["jupyter"]}
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
